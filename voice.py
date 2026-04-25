@@ -29,7 +29,7 @@ def play_audio(filename):
 
 def recording(result):
     text_index = ""
-    commands = ["начал", "добавить", "конец", "выход"]
+    commands = ["начало", "добавить", "конец", "выход"]
 
     for i in commands:
         if i in result["text"]:
